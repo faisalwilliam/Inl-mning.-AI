@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Book</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="contact-book">
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Contact Book</h2>
+      </div>
+      <div class="card-content">
+        <div class="flex flex-col space-y-4">
+          <div class="flex flex-row space-x-2">
+            <label for="name">Name:</label>
+            <input id="name" type="text" value="" />
+          </div>
+          <div class="flex flex-row space-x-2">
+            <label for="email">Email:</label>
+            <input id="email" type="email" value="" />
+          </div>
+          <div class="flex flex-row space-x-2">
+            <label for="phone">Phone:</label>
+            <input id="phone" type="tel" value="" />
+          </div>
+          <button class="add-contact-btn">Add Contact</button>
+        </div>
+        <div class="flex flex-col space-y-4 mt-4">
+          <label for="search">Search:</label>
+          <input id="search" type="search" value="" />
+          <ul id="contact-list">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
