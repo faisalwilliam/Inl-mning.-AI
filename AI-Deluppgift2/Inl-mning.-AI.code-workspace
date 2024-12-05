@@ -4,5 +4,16 @@
 			"path": ".."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"sqltools.useNodeRuntime": true,
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"driver": "SQLite",
+				"name": "faisal matar",
+				"group": "1",
+				"database": "server.js"
+			}
+		]
+	}
 }

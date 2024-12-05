@@ -1,0 +1,7 @@
+
+
+
+
+1. Skapa en kontaktbok app med SQLite database och GUI.
+2. Lägg till möjlighet att lägga till och spara kontakter med multipla e-mail, telefonnummer osv.
+3. Gör appen sökbar på namn, telefonnummer och kanske något mer.
