@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const contactList = document.getElementById('contact-list');
 
   nameInput.addEventListener('input', function(e) {
-    name = e.target.value;
+  name = e.target.value;
   });
 
   emailInput.addEventListener('input', function(e) {
@@ -47,7 +47,14 @@ document.addEventListener('DOMContentLoaded', function() {
     phone = '';
     address = '';
     updateContactList();
+
   });
+  addContactBtn.addEventListener('click', function() {
+    const name = document.getElementById('name').value; // assuming you have an input field with id "name"
+    contacts.push({ name, email, phone, address });
+    // ...
+  });
+ 
 
   function updateContactList() {
     const filteredContacts = contacts.filter(contact => {
@@ -73,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   }
 }); 
-
+/*
 const AI = {
   // Funktion för att hantera frågor om kontakter
   handleQuestion: (question) => {
@@ -100,3 +107,4 @@ app.post('/ai', (req, res) => {
   res.send({ message: 'Frågan har hanterats!' });
 });
 
+*/
