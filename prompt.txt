@@ -1,7 +1,21 @@
 
 
+1. Skapa en SQLite-databas med tabellen "contacts" med kolumnerna "name", "email", "phone", "Adderss".
+2. Skapa ett HTML-dokument som heter `index.html` med en enkel form för att lägga till kontakter:
 
+    *   Namnfält
+    *   E-postfält (kan vara flera, separerade med komma)
+    *   Telefonnummerfält (kan vara flera, separerade med komma)
+    *   Adderss (kan vara flera, separerade med komma)
+    *   Add contacts-knapp
+3. Skapa en CSS-fil som heter `style.css` för att styla formuläret och webbplatsen.
+4. Skapa en JavaScript-fil som heter `script.js` som hanterar:
+    *   Skicka formulärdata till servern.
+    *   Läsa kontaktdata från SQLite-databasen.
+    *   Visa kontaktlistan i HTML.
+    *   Implementera sökfunktion (filtrera kontakter baserat på namn, telefonnummer ,e-post och Adderss).
+5. Skapa en server-sida fil (t.ex. `server.js`) som:
+    *   Tar emot data från formuläret.
+    *   Lägger till kontakten i SQLite-databasen.
+    *   Returerar ett JSON-svar.
 
-1. Skapa en kontaktbok app med SQLite database och GUI.
-2. Lägg till möjlighet att lägga till och spara kontakter med multipla e-mail, telefonnummer osv.
-3. Gör appen sökbar på namn, telefonnummer och kanske något mer.
