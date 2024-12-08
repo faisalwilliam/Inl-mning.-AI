@@ -13,7 +13,7 @@ const server = new sqlite3.Database('./server.js');
 import express from 'express';
 
 const app = express();
-const port = 1000;
+const port = 2000;
 
 // Middleware för att hantera JSON-data
 app.use(express.json());
@@ -56,6 +56,6 @@ app.post('/kontakter', addContact);
 
 // Starta servern
 app.listen(port, () => {
-  console.log('http://localhost:1000/kontakter');
+  console.log('http://localhost:2000/kontakter');
 });
 
